@@ -73,3 +73,6 @@ The current state of the project is the Convolution Neural Network with image re
 
 If we had more time on the project, we would try to do more with the PYNQ board and create our own custom hardware overlay, instead of using a premade one for comparison. After researching other related works, their accuracy was much higher than ours, which would be another target to reach. So having more time to troubleshoot and improve on would be helpful. Another factor we would like to test is using a Raspberry Pi. The Raspberry Pi also has an ARM processor similar to PYNQ. The last factor if we had more time to improve on it, would be to add more performance metrics. The performance metric took some time to find and implement, which ultimately led us to add what we could. 
 
+##Project Sponsor
+
+1. [Xilinx Inc.](https://www.xilinx.com/)
