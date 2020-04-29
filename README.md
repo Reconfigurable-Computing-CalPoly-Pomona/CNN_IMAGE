@@ -18,13 +18,6 @@
 ### Abstract
 Convolution Neural Network, or CNN, is a type of machine learning. What it does is it takes a basic dataset, whether it be images, text, video, etc and it takes that dataset and trains itself to notice the items. Next, is that once it finishes learning all the data, we can then feed it an image and it will tell us how accurate it depicts after CNN recognizes it.   
 
-### Performance Benchmark
-Like most programs when it comes to designing it, we have to worry about the performance aspects of the program because they can become costly if not managed carefully. The following factors that we will be testing it on is:
-**Execution Time:** Execution Time is important so we can measure fast CNN can process that amount of information and still deliver the results within a certain limit. Seeing how long it takes to do a task is helpful so we know we need to fix the code or maybe we need a better CPU.
-**Clock Rate/Clock Speed:** Clock rate and clock speed tells us the power and the frequency that the CPU can handle while running the dataset. The bigger the number, the faster the CPU can process the instruction and data. 
-**Power Consumption:** Running any type of program consumes power and big  programs consumes even more power. Measuring the output of how much it needs can help see where we should redirect the power to other components or maybe minimize it if possible. 
-
-
 ### How CNN image classification works.
  
 Figure 1: Demonstration for the CNN.
@@ -40,12 +33,13 @@ Figure 2: Mathematical equation of the feature maps.
 Once the filter is placed over a selected pixel, each value is multiplied in pairs corresponding to the values from the image. Lastly, everything is summed up and the result is placed in the output feature map. 
 
 Tutorial
-- Setup Desktop/Laptop Virtual Environment
+1. Setup Desktop/Laptop Virtual Environment
   - To access and keep our files from Jupyter Notebook we need to download Anaconda Navigator and create a virtual environment
     - Download link: https://www.anaconda.com/products/individual 
-●	Once installed you will need to open the anaconda command prompt and enter the following commands in order to setup environment and install necessary libraries:
-■	 conda create --name PythonCPU
-○	You can use any name other than “PythonCPU” if you would like
+
+2. Once installed you will need to open the anaconda command prompt and enter the following commands in order to setup environment and install necessary libraries:
+   - conda create --name PythonCPU
+You can use any name other than “PythonCPU” if you would like
 ■	 activate PythonCPU
 ○	Run this command anytime you want to access the environment in terminal
 ■	 conda install python=3.6
