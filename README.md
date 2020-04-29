@@ -34,11 +34,11 @@ Once the filter is placed over a selected pixel, each value is multiplied in pai
 
 Tutorial
 1. Setup Desktop/Laptop Virtual Environment
-  - To access and keep our files from Jupyter Notebook we need to download Anaconda Navigator and create a virtual environment
-    - Download link: https://www.anaconda.com/products/individual 
+   - To access and keep our files from Jupyter Notebook we need to download Anaconda Navigator and create a virtual environment
+     - Download link: https://www.anaconda.com/products/individual 
 
 2. Once installed you will need to open the anaconda command prompt and enter the following commands in order to setup environment and install necessary libraries:
-   - conda create --name PythonCPU
+   - ```conda create --name PythonCPU```
 You can use any name other than “PythonCPU” if you would like
 ■	 activate PythonCPU
 ○	Run this command anytime you want to access the environment in terminal
@@ -64,7 +64,10 @@ You can use any name other than “PythonCPU” if you would like
 3.	PYNQ-Z1 Board CNN Code
 ●	After connecting to the board, to access and run some CNN code on the board, Xilinx has their own version at the following link
 ■	https://github.com/Xilinx/BNN-PYNQ 
-Current State and Future Plans
+
+## Current State and Future Plans
+
 The current state of the project is the Convolution Neural Network with image recognition runs as desired on the target systems. It takes the CIFAR-10 dataset and trains a model to determine the types of images. Upon training the dataset, we then input in an image and have it decipher what the image is. At the moment the accuracy is roughly 70%-80% and the processing speed is 1-3 images per second on the CPU. On the PYNQ-Z1 board with the FPGA overlay, it is exceptionally faster than the CPU. 
+
 If we had more time on the project, we would try to do more with the PYNQ board and create our own custom hardware overlay, instead of using a premade one for comparison. After researching other related works, their accuracy was much higher than ours, which would be another target to reach. So having more time to troubleshoot and improve on would be helpful. Another factor we would like to test is using a Raspberry Pi. The Raspberry Pi also has an ARM processor similar to PYNQ. The last factor if we had more time to improve on it, would be to add more performance metrics. The performance metric took some time to find and implement, which ultimately led us to add what we could. 
 
