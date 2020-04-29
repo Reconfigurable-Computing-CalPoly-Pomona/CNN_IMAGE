@@ -20,6 +20,7 @@ Convolution Neural Network, or CNN, is a type of machine learning. What it does 
 
 ### How CNN image classification works.
 ![](/Report/Read.md_figures/classification.jpg) 
+
 Figure 1: Demonstration for the CNN.
 
 Image classification works by inputting an image into the program. The image applied to many different filters to create a map of the features. The image is then applied to a ReLu function to increase the non-linearity. Then it applied to a pooling layer to the mapped features. The pooled images are then flattened into a long vector. The inputs of that vector are fully connected to an artificial neural network. The final fully connected layer provides the “voting” of the classes that we’re after. This cycle repeats until we have a well-defined neural network with trained weights and feature detectors.
