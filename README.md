@@ -24,22 +24,21 @@ Figure 1: Demonstration for the CNN.
 
 Image classification works by inputting an image into the program. The image applied to many different filters to create a map of the features. The image is then applied to a ReLu function to increase the non-linearity. Then it applied to a pooling layer to the mapped features. The pooled images are then flattened into a long vector. The inputs of that vector are fully connected to an artificial neural network. The final fully connected layer provides the “voting” of the classes that we’re after. This cycle repeats until we have a well-defined neural network with trained weights and feature detectors.
 
-Convolution
-
+### Convolution
 Convolution is a process in which a small matrix of numbers (filter) is passed over an image and transformed based on the values determined by the filter. Feature map values are calculated using the formula in the figure below, where the input image is denoted by f and the filter by h, meanwhile rows are m and columns are n.
 
  
 Figure 2: Mathematical equation of the feature maps.
 Once the filter is placed over a selected pixel, each value is multiplied in pairs corresponding to the values from the image. Lastly, everything is summed up and the result is placed in the output feature map. 
 
-Tutorial
-1. Setup Desktop/Laptop Virtual Environment
-   - To access and keep our files from Jupyter Notebook we need to download Anaconda Navigator and create a virtual environment
-     - Download link: https://www.anaconda.com/products/individual 
+## Tutorial
+### Setup Desktop/Laptop Virtual Environment
+    - To access and keep our files from Jupyter Notebook we need to download Anaconda Navigator and create a virtual environment
+      - Download link: https://www.anaconda.com/products/individual 
 
 2. Once installed you will need to open the anaconda command prompt and enter the following commands in order to setup environment and install necessary libraries:
    - ```conda create --name PythonCPU```
-You can use any name other than “PythonCPU” if you would like
+   You can use any name other than “PythonCPU” if you would like
 ■	 activate PythonCPU
 ○	Run this command anytime you want to access the environment in terminal
 ■	 conda install python=3.6
