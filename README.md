@@ -50,19 +50,19 @@ Once the filter is placed over a selected pixel, each value is multiplied in pai
      - ```conda install -c anaconda matplotlib```
      - ```conda install -c anaconda numpy```
      - ```conda install -c anaconda py-cpuinfo```
-   - You can now exit the terminal and open up Anaconda Navigator
-   - You will need to change the “base(root)” environment to the one you created, in this case “PythonCPU”
-   - Install Jupyter Notebook
-   - Once you open up Jupyter Notebook you can upload the “CNN_Work” notebook and run it from there
+3. You can now exit the terminal and open up Anaconda Navigator
+4. You will need to change the “base(root)” environment to the one you created, in this case “PythonCPU”
+5. Install Jupyter Notebook
+6. Once you open up Jupyter Notebook you can upload the “CNN_Work” notebook and run it from there
 
 ### Access the PYNQ-Z1 board over a network connection from computer browser:
-●	To get started you can follow the “PYNQ-Z1 Setup Guide” at the following link: https://pynq.readthedocs.io/en/latest/getting_started/pynq_z1_setup.html
-●	In this project we will be accessing the board over a network connection
-●	To communicate with the board in your browser type in http://pynq:9090
-●	Password: Xilinx
-3.	PYNQ-Z1 Board CNN Code
-●	After connecting to the board, to access and run some CNN code on the board, Xilinx has their own version at the following link
-■	https://github.com/Xilinx/BNN-PYNQ 
+1. To get started you can follow the “PYNQ-Z1 Setup Guide” at the following link: https://pynq.readthedocs.io/en/latest/getting_started/pynq_z1_setup.html
+2. In this project we will be accessing the board over a network connection
+3. To communicate with the board in your browser type in http://pynq:9090
+5. Password: Xilinx
+### PYNQ-Z1 Board CNN Code
+1. After connecting to the board, to access and run some CNN code you will need to download it first, Xilinx has their own version at the following link. Their tutorial discusses how to install and run on the PYNQ-Z1
+   - https://github.com/Xilinx/BNN-PYNQ 
 
 ## Current State and Future Plans
 
