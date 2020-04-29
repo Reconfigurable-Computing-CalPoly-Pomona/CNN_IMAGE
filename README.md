@@ -37,11 +37,11 @@ Once the filter is placed over a selected pixel, each value is multiplied in pai
       - Download link: https://www.anaconda.com/products/individual 
 2. Once installed you will need to open the anaconda command prompt and enter the following commands in order to setup environment and install necessary libraries:
    - ```conda create --name PythonCPU```
-    - You can use any name other than “PythonCPU” if you would like
+     - You can use any name other than “PythonCPU” if you would like
    - ```activate PythonCPU```
-    - Run this command anytime you want to access the environment in terminal
+     - Run this command anytime you want to access the environment in terminal
    - ```conda install python=3.6```
-    - Keras only works with python 3.6 and below
+     - Keras only works with python 3.6 and below
    - To install the libraries enter the following commands separately
     - ```conda install -c anaconda keras```
     - ```conda install -c anaconda tensorflow```
