@@ -27,7 +27,7 @@ Image classification works by inputting an image into the program. The image app
 ### Convolution
 Convolution is a process in which a small matrix of numbers (filter) is passed over an image and transformed based on the values determined by the filter. Feature map values are calculated using the formula in the figure below, where the input image is denoted by f and the filter by h, meanwhile rows are m and columns are n.
 
- 
+![GitHub Logo](/report/Read.md_figures/featureExtraction.PNG)
 Figure 2: Mathematical equation of the feature maps.
 Once the filter is placed over a selected pixel, each value is multiplied in pairs corresponding to the values from the image. Lastly, everything is summed up and the result is placed in the output feature map. 
 
