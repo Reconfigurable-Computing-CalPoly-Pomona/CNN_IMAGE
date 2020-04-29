@@ -34,7 +34,7 @@ Once the filter is placed over a selected pixel, each value is multiplied in pai
 ## Tutorial
 ### Setup Desktop/Laptop Virtual Environment
 1. To access and keep our files from Jupyter Notebook we need to download Anaconda Navigator and create a virtual environment
-      - Download link: https://www.anaconda.com/products/individual 
+   - Download link: https://www.anaconda.com/products/individual 
 2. Once installed you will need to open the anaconda command prompt and enter the following commands in order to setup environment and install necessary libraries:
    - ```conda create --name PythonCPU```
      - You can use any name other than “PythonCPU” if you would like
@@ -43,13 +43,13 @@ Once the filter is placed over a selected pixel, each value is multiplied in pai
    - ```conda install python=3.6```
      - Keras only works with python 3.6 and below
    - To install the libraries enter the following commands separately
-    - ```conda install -c anaconda keras```
-    - ```conda install -c anaconda tensorflow```
-    - ```conda install -c anaconda scikit-image```
-    - ```conda install -c anaconda scikit-learn```
-    - ```conda install -c anaconda matplotlib```
-    - ```conda install -c anaconda numpy```
-    - ```conda install -c anaconda py-cpuinfo```
+     - ```conda install -c anaconda keras```
+     - ```conda install -c anaconda tensorflow```
+     - ```conda install -c anaconda scikit-image```
+     - ```conda install -c anaconda scikit-learn```
+     - ```conda install -c anaconda matplotlib```
+     - ```conda install -c anaconda numpy```
+     - ```conda install -c anaconda py-cpuinfo```
    - You can now exit the terminal and open up Anaconda Navigator
    - You will need to change the “base(root)” environment to the one you created, in this case “PythonCPU”
    - Install Jupyter Notebook
